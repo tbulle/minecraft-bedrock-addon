@@ -1,0 +1,57 @@
+# Minecraft Bedrock Add-on Development
+
+# Development files
+*.log
+*.tmp
+*.cache
+
+# Build artifacts
+build/
+dist/
+output/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Minecraft specific
+# Don't ignore development packs as they're part of the project
+# development_behavior_packs/
+# development_resource_packs/
+
+# But ignore world saves and other game data
+worlds/
+minecraftWorlds/
+resource_packs/
+behavior_packs/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Package files
+*.mcpack
+*.mcaddon
+*.mcworld
+*.mctemplate
+
+# Node modules (if using any build tools)
+node_modules/
+package-lock.json
+
+# Python cache (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Keep Claude settings
+!.claude/
