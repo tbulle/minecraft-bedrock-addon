@@ -12,7 +12,13 @@
       "Bash(gh repo create:*)",
       "WebFetch(domain:learn.microsoft.com)",
       "Bash(git push:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(mkdir:*)",
+      "Bash(rmdir:*)",
+      "Bash(rm:*)",
+      "Bash(git rebase:*)",
+      "Bash(git stash:*)",
+      "Bash(git reset:*)"
     ],
     "deny": []
   }
