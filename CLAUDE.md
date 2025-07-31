@@ -93,6 +93,11 @@ When developing add-ons, useful commands include:
 5. **Check file paths** - Most common source of errors
 6. **Use proper namespacing** - `namespace:identifier` format
 7. **Test incrementally** - Add features one at a time
+8. **Create placeholder images** - Generate placeholder textures/icons when needed
+   - Pack icons: 128×128 PNG
+   - Block/item textures: 16×16 PNG
+   - Entity textures: Varies by model
+   - Use solid colors or simple patterns for testing
 
 ### Common Issues
 - Missing textures: Check paths in texture JSON files
