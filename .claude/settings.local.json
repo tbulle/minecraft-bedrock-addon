@@ -6,7 +6,13 @@
       "Bash(find:*)",
       "WebFetch(domain:wiki.bedrock.dev)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo create:*)",
+      "WebFetch(domain:learn.microsoft.com)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)"
     ],
     "deny": []
   }
