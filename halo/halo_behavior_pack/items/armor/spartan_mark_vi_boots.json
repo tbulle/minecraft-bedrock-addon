@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "halo:spartan_mark_vi_boots",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.boots"
+      }
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 650
+      },
+      "minecraft:armor": {
+        "protection": 5
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:netherite_ingot"],
+            "repair_amount": 160
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "dispensable": true,
+        "slot": "slot.armor.feet"
+      },
+      "minecraft:icon": {
+        "texture": "halo:spartan_mark_vi_boots"
+      },
+      "minecraft:display_name": {
+        "value": "item.halo:spartan_mark_vi_boots.name"
+      },
+      "minecraft:tags": {
+        "tags": ["halo:spartan_armor", "halo:has_shields"]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "halo:spartan_mark_v_boots",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.boots"
+      }
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 520
+      },
+      "minecraft:armor": {
+        "protection": 4
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:diamond"],
+            "repair_amount": 130
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "dispensable": true,
+        "slot": "slot.armor.feet"
+      },
+      "minecraft:icon": {
+        "texture": "halo:spartan_mark_v_boots"
+      },
+      "minecraft:display_name": {
+        "value": "item.halo:spartan_mark_v_boots.name"
+      },
+      "minecraft:tags": {
+        "tags": ["halo:spartan_armor", "halo:has_shields"]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "halo:odst_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 450
+      },
+      "minecraft:armor": {
+        "protection": 5
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:iron_ingot"],
+            "repair_amount": 110
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "dispensable": true,
+        "slot": "slot.armor.legs"
+      },
+      "minecraft:icon": {
+        "texture": "halo:odst_leggings"
+      },
+      "minecraft:display_name": {
+        "value": "item.halo:odst_leggings.name"
+      },
+      "minecraft:tags": {
+        "tags": ["halo:odst_armor", "halo:stealth_armor"]
+      },
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "armor_legs"
+      }
+    }
+  }
+}

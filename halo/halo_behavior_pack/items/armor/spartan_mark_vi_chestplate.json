@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "halo:spartan_mark_vi_chestplate",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 800
+      },
+      "minecraft:armor": {
+        "protection": 10
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:netherite_ingot"],
+            "repair_amount": 200
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "dispensable": true,
+        "slot": "slot.armor.chest"
+      },
+      "minecraft:icon": {
+        "texture": "halo:spartan_mark_vi_chestplate"
+      },
+      "minecraft:display_name": {
+        "value": "item.halo:spartan_mark_vi_chestplate.name"
+      },
+      "minecraft:tags": {
+        "tags": ["halo:spartan_armor", "halo:has_shields"]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "halo:spartan_mark_v_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 600
+      },
+      "minecraft:armor": {
+        "protection": 6
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:diamond"],
+            "repair_amount": 150
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "dispensable": true,
+        "slot": "slot.armor.legs"
+      },
+      "minecraft:icon": {
+        "texture": "halo:spartan_mark_v_leggings"
+      },
+      "minecraft:display_name": {
+        "value": "item.halo:spartan_mark_v_leggings.name"
+      },
+      "minecraft:tags": {
+        "tags": ["halo:spartan_armor", "halo:has_shields"]
+      }
+    }
+  }
+}

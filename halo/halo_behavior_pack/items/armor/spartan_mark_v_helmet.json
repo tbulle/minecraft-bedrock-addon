@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "halo:spartan_mark_v_helmet",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 400
+      },
+      "minecraft:armor": {
+        "protection": 4
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:diamond"],
+            "repair_amount": 100
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "dispensable": true,
+        "slot": "slot.armor.head"
+      },
+      "minecraft:icon": {
+        "texture": "halo:spartan_mark_v_helmet"
+      },
+      "minecraft:display_name": {
+        "value": "item.halo:spartan_mark_v_helmet.name"
+      },
+      "minecraft:tags": {
+        "tags": ["halo:spartan_armor", "halo:has_shields"]
+      }
+    }
+  }
+}

@@ -5,22 +5,22 @@ pack.name=Halo Add-on
 pack.description=Brings iconic Halo weapons, vehicles, armor, and enemies to Minecraft
 
 ## Armor - Spartan Mark VI (Master Chief)
-item.halo:spartan_mkvi_helmet=Spartan Mark VI Helmet
-item.halo:spartan_mkvi_chestplate=Spartan Mark VI Chestplate
-item.halo:spartan_mkvi_leggings=Spartan Mark VI Leggings
-item.halo:spartan_mkvi_boots=Spartan Mark VI Boots
+item.halo:spartan_mark_vi_helmet.name=Spartan Mark VI Helmet
+item.halo:spartan_mark_vi_chestplate.name=Spartan Mark VI Chestplate
+item.halo:spartan_mark_vi_leggings.name=Spartan Mark VI Leggings
+item.halo:spartan_mark_vi_boots.name=Spartan Mark VI Boots
 
 ## Armor - Spartan Mark V
-item.halo:spartan_mkv_helmet=Spartan Mark V Helmet
-item.halo:spartan_mkv_chestplate=Spartan Mark V Chestplate
-item.halo:spartan_mkv_leggings=Spartan Mark V Leggings
-item.halo:spartan_mkv_boots=Spartan Mark V Boots
+item.halo:spartan_mark_v_helmet.name=Spartan Mark V Helmet
+item.halo:spartan_mark_v_chestplate.name=Spartan Mark V Chestplate
+item.halo:spartan_mark_v_leggings.name=Spartan Mark V Leggings
+item.halo:spartan_mark_v_boots.name=Spartan Mark V Boots
 
 ## Armor - ODST
-item.halo:odst_helmet=ODST Helmet
-item.halo:odst_chestplate=ODST Chestplate
-item.halo:odst_leggings=ODST Leggings
-item.halo:odst_boots=ODST Boots
+item.halo:odst_helmet.name=ODST Helmet
+item.halo:odst_chestplate.name=ODST Chestplate
+item.halo:odst_leggings.name=ODST Leggings
+item.halo:odst_boots.name=ODST Boots
 
 ## Equipment
 item.halo:active_camo=Active Camouflage

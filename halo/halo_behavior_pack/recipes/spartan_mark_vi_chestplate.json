@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "halo:spartan_mark_vi_chestplate"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "N N",
+      "NNN",
+      "NNN"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:netherite_ingot"
+      }
+    ],
+    "result": {
+      "item": "halo:spartan_mark_vi_chestplate",
+      "count": 1
+    }
+  }
+}

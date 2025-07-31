@@ -1,0 +1,75 @@
+{
+  "resource_pack_name": "halo",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "halo:spartan_mark_vi_helmet": {
+      "textures": "textures/items/armor/spartan_mark_vi_helmet"
+    },
+    "halo:spartan_mark_vi_chestplate": {
+      "textures": "textures/items/armor/spartan_mark_vi_chestplate"
+    },
+    "halo:spartan_mark_vi_leggings": {
+      "textures": "textures/items/armor/spartan_mark_vi_leggings"
+    },
+    "halo:spartan_mark_vi_boots": {
+      "textures": "textures/items/armor/spartan_mark_vi_boots"
+    },
+    "halo:spartan_mark_v_helmet": {
+      "textures": "textures/items/armor/spartan_mark_v_helmet"
+    },
+    "halo:spartan_mark_v_chestplate": {
+      "textures": "textures/items/armor/spartan_mark_v_chestplate"
+    },
+    "halo:spartan_mark_v_leggings": {
+      "textures": "textures/items/armor/spartan_mark_v_leggings"
+    },
+    "halo:spartan_mark_v_boots": {
+      "textures": "textures/items/armor/spartan_mark_v_boots"
+    },
+    "halo:odst_helmet": {
+      "textures": "textures/items/armor/odst_helmet"
+    },
+    "halo:odst_chestplate": {
+      "textures": "textures/items/armor/odst_chestplate"
+    },
+    "halo:odst_leggings": {
+      "textures": "textures/items/armor/odst_leggings"
+    },
+    "halo:odst_boots": {
+      "textures": "textures/items/armor/odst_boots"
+    },
+    "halo:energy_sword": {
+      "textures": "textures/items/weapons/energy_sword"
+    },
+    "halo:plasma_rifle": {
+      "textures": "textures/items/weapons/plasma_rifle"
+    },
+    "halo:needler": {
+      "textures": "textures/items/weapons/needler"
+    },
+    "halo:assault_rifle": {
+      "textures": "textures/items/weapons/assault_rifle"
+    },
+    "halo:battle_rifle": {
+      "textures": "textures/items/weapons/battle_rifle"
+    },
+    "halo:sniper_rifle": {
+      "textures": "textures/items/weapons/sniper_rifle"
+    },
+    "halo:rocket_launcher": {
+      "textures": "textures/items/weapons/rocket_launcher"
+    },
+    "halo:plasma_grenade": {
+      "textures": "textures/items/weapons/plasma_grenade"
+    },
+    "halo:frag_grenade": {
+      "textures": "textures/items/weapons/frag_grenade"
+    },
+    "halo:active_camo": {
+      "textures": "textures/items/equipment/active_camo"
+    },
+    "halo:overshield": {
+      "textures": "textures/items/equipment/overshield"
+    }
+  }
+}

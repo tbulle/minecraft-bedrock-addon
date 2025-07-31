@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "halo:odst_helmet",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 300
+      },
+      "minecraft:armor": {
+        "protection": 3
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:iron_ingot"],
+            "repair_amount": 75
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "dispensable": true,
+        "slot": "slot.armor.head"
+      },
+      "minecraft:icon": {
+        "texture": "halo:odst_helmet"
+      },
+      "minecraft:display_name": {
+        "value": "item.halo:odst_helmet.name"
+      },
+      "minecraft:tags": {
+        "tags": ["halo:odst_armor", "halo:stealth_armor"]
+      },
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "armor_head"
+      }
+    }
+  }
+}
