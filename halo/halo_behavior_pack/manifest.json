@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Halo Behavior Pack",
+    "description": "Brings iconic Halo weapons, vehicles, armor, and enemies to Minecraft",
+    "uuid": "c5a4b8e2-7f4d-4a3b-9e2c-8b3f1d2e4a5c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "d7e5f3a2-8b4c-4d2a-9f1e-3c5b7a8d9e2f",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a8f4b2c5-3e7d-4b9a-8c2f-5d1e3a7b9c4e",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["tbulle"],
+    "license": "MIT",
+    "url": "https://github.com/tbulle/minecraft-bedrock-addon"
+  }
+}

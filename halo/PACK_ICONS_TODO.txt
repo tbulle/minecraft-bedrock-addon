@@ -1,0 +1,15 @@
+TODO: Replace pack icon placeholders with actual 128x128 PNG images
+
+The following files need to be replaced with proper PNG images:
+- halo_behavior_pack/pack_icon.png (suggested: green-themed Halo logo)
+- halo_resource_pack/pack_icon.png (suggested: blue-themed Halo logo)
+
+Requirements:
+- Size: 128x128 pixels
+- Format: PNG
+- Suggested design: Halo logo or Master Chief helmet silhouette
+
+You can create these using:
+- Any image editor (GIMP, Paint.NET, Photoshop)
+- Online tools like Canva or Pixlr
+- The provided Python script (create_pack_icons.py) if you have Python + PIL installed

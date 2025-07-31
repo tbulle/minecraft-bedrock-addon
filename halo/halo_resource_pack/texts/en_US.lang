@@ -1,0 +1,77 @@
+## Halo Add-on Localization - English (US)
+
+## Pack Information
+pack.name=Halo Add-on
+pack.description=Brings iconic Halo weapons, vehicles, armor, and enemies to Minecraft
+
+## Armor - Spartan Mark VI (Master Chief)
+item.halo:spartan_mkvi_helmet=Spartan Mark VI Helmet
+item.halo:spartan_mkvi_chestplate=Spartan Mark VI Chestplate
+item.halo:spartan_mkvi_leggings=Spartan Mark VI Leggings
+item.halo:spartan_mkvi_boots=Spartan Mark VI Boots
+
+## Armor - Spartan Mark V
+item.halo:spartan_mkv_helmet=Spartan Mark V Helmet
+item.halo:spartan_mkv_chestplate=Spartan Mark V Chestplate
+item.halo:spartan_mkv_leggings=Spartan Mark V Leggings
+item.halo:spartan_mkv_boots=Spartan Mark V Boots
+
+## Armor - ODST
+item.halo:odst_helmet=ODST Helmet
+item.halo:odst_chestplate=ODST Chestplate
+item.halo:odst_leggings=ODST Leggings
+item.halo:odst_boots=ODST Boots
+
+## Equipment
+item.halo:active_camo=Active Camouflage
+item.halo:overshield=Overshield
+
+## Weapons - Energy
+item.halo:energy_sword=Energy Sword
+item.halo:plasma_rifle=Plasma Rifle
+item.halo:needler=Needler
+
+## Weapons - Ballistic
+item.halo:assault_rifle=MA5B Assault Rifle
+item.halo:battle_rifle=BR55 Battle Rifle
+item.halo:sniper_rifle=SRS99 Sniper Rifle
+item.halo:rocket_launcher=M41 SPNKr Rocket Launcher
+
+## Weapons - Grenades
+item.halo:plasma_grenade=Plasma Grenade
+item.halo:frag_grenade=M9 Fragmentation Grenade
+
+## Vehicles
+entity.halo:warthog=M12 Warthog
+entity.halo:ghost=Type-32 Ghost
+entity.halo:banshee=Type-26 Banshee
+entity.halo:scorpion=M808 Scorpion
+entity.halo:mongoose=M274 Mongoose
+
+## Enemies
+entity.halo:grunt=Unggoy (Grunt)
+entity.halo:elite=Sangheili (Elite)
+entity.halo:jackal=Kig-Yar (Jackal)
+entity.halo:hunter=Mgalekgolo (Hunter)
+
+## Blocks
+tile.halo:forerunner_metal=Forerunner Metal
+tile.halo:covenant_metal=Covenant Alloy
+tile.halo:unsc_plating=UNSC Titanium Plating
+tile.halo:energy_barrier=Energy Barrier
+
+## Shield System Messages
+halo.shield.depleted=Shields Down!
+halo.shield.recharging=Shields Recharging...
+halo.shield.full=Shields Full
+
+## Weapon Messages
+halo.weapon.overheated=Weapon Overheated!
+halo.weapon.cooling=Cooling Down...
+halo.weapon.ammo_empty=No Ammo!
+
+## Equipment Messages
+halo.camo.activated=Active Camo Engaged
+halo.camo.depleted=Active Camo Depleted
+halo.overshield.activated=Overshield Active
+halo.overshield.depleted=Overshield Depleted

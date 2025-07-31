@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Halo Resource Pack",
+    "description": "Textures, models, and sounds for the Halo add-on",
+    "uuid": "a8f4b2c5-3e7d-4b9a-8c2f-5d1e3a7b9c4e",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b9c3d4e5-2a8f-4c7b-9d3e-1f5a8c7b2e4d",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["tbulle"],
+    "license": "MIT",
+    "url": "https://github.com/tbulle/minecraft-bedrock-addon"
+  }
+}
