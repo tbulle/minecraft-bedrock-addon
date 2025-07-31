@@ -107,3 +107,42 @@ When developing add-ons, useful commands include:
 4. Build features incrementally
 5. Use Content Log to debug issues
 6. Test in a dedicated world with experiments enabled
+
+## Official Microsoft Tools and Resources
+
+### Recommended Development Environment
+- **Visual Studio Code** - Official recommendation
+- **VS Code Extensions**:
+  - Blockception's Minecraft Bedrock Development
+  - Bedrock Definitions
+  - JSON validation support
+
+### Official Creation Tools
+1. **Minecraft Block Wizard** - Rapidly design and deploy custom blocks
+2. **Minecraft Entity Wizard** - Blockbench plugin for custom entities
+   - Provides presets for mob appearances
+   - Guides through behavior selection
+   - Generates spawn eggs
+   - Exports complete resource and behavior packs
+3. **Blockbench** - 3D model editor for Minecraft
+   - Desktop and web versions available
+   - Direct integration with Entity Wizard
+
+### Advanced Development Features
+- **Scripting APIs** - TypeScript support for dynamic content
+- **Molang** - Expression language for entity programming
+- **JSON Schemas** - Official validation for configuration files
+- **Command-based mechanics** - Extend functionality with commands
+
+### Content Creation Categories
+- Custom Blocks with wizards
+- Custom Entities with presets
+- NPCs with dialogue
+- Loot and Trading Tables
+- Game Mechanics via commands
+
+### Learning Resources
+- Creator Learning Journey guide
+- Scripting API Reference
+- Vanilla Content Reference
+- Official Microsoft Learn documentation
