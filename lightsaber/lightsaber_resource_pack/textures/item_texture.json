@@ -1,0 +1,72 @@
+{
+  "resource_pack_name": "lightsaber",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "blue_hilt": {
+      "textures": "textures/items/blue_hilt"
+    },
+    "blue_active": {
+      "textures": "textures/items/blue_active"
+    },
+    "green_hilt": {
+      "textures": "textures/items/green_hilt"
+    },
+    "green_active": {
+      "textures": "textures/items/green_active"
+    },
+    "red_hilt": {
+      "textures": "textures/items/red_hilt"
+    },
+    "red_active": {
+      "textures": "textures/items/red_active"
+    },
+    "purple_hilt": {
+      "textures": "textures/items/purple_hilt"
+    },
+    "purple_active": {
+      "textures": "textures/items/purple_active"
+    },
+    "yellow_hilt": {
+      "textures": "textures/items/yellow_hilt"
+    },
+    "yellow_active": {
+      "textures": "textures/items/yellow_active"
+    },
+    "white_hilt": {
+      "textures": "textures/items/white_hilt"
+    },
+    "white_active": {
+      "textures": "textures/items/white_active"
+    },
+    "kyber_crystal_blue": {
+      "textures": "textures/items/kyber_crystal_blue"
+    },
+    "kyber_crystal_green": {
+      "textures": "textures/items/kyber_crystal_green"
+    },
+    "kyber_crystal_red": {
+      "textures": "textures/items/kyber_crystal_red"
+    },
+    "kyber_crystal_purple": {
+      "textures": "textures/items/kyber_crystal_purple"
+    },
+    "kyber_crystal_yellow": {
+      "textures": "textures/items/kyber_crystal_yellow"
+    },
+    "kyber_crystal_white": {
+      "textures": "textures/items/kyber_crystal_white"
+    },
+    "durasteel_ingot": {
+      "textures": "textures/items/durasteel_ingot"
+    },
+    "power_cell": {
+      "textures": "textures/items/power_cell"
+    },
+    "hilt_casing": {
+      "textures": "textures/items/hilt_casing"
+    },
+    "focusing_lens": {
+      "textures": "textures/items/focusing_lens"
+    }
+  }
+}

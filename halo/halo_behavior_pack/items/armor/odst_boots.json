@@ -27,14 +27,17 @@
         "dispensable": true,
         "slot": "slot.armor.feet"
       },
-      "minecraft:icon": {
-        "texture": "halo:odst_boots"
-      },
+      "minecraft:icon": "halo:odst_boots",
       "minecraft:display_name": {
         "value": "item.halo:odst_boots.name"
       },
       "minecraft:tags": {
         "tags": ["halo:odst_armor", "halo:stealth_armor"]
+      },
+      "minecraft:attachable": {
+        "description": {
+          "item_slot": "feet"
+        }
       },
       "minecraft:enchantable": {
         "value": 15,

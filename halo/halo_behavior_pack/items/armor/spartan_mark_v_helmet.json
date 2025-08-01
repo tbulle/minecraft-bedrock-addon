@@ -27,14 +27,17 @@
         "dispensable": true,
         "slot": "slot.armor.head"
       },
-      "minecraft:icon": {
-        "texture": "halo:spartan_mark_v_helmet"
-      },
+      "minecraft:icon": "halo:spartan_mark_v_helmet",
       "minecraft:display_name": {
         "value": "item.halo:spartan_mark_v_helmet.name"
       },
       "minecraft:tags": {
         "tags": ["halo:spartan_armor", "halo:has_shields"]
+      },
+      "minecraft:attachable": {
+        "description": {
+          "item_slot": "head"
+        }
       }
     }
   }

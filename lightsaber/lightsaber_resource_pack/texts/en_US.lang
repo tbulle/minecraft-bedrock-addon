@@ -1,0 +1,25 @@
+## Items
+item.lightsaber:blue_hilt=Blue Lightsaber Hilt
+item.lightsaber:blue_active=Blue Lightsaber
+item.lightsaber:green_hilt=Green Lightsaber Hilt
+item.lightsaber:green_active=Green Lightsaber
+item.lightsaber:red_hilt=Red Lightsaber Hilt
+item.lightsaber:red_active=Red Lightsaber
+item.lightsaber:purple_hilt=Purple Lightsaber Hilt
+item.lightsaber:purple_active=Purple Lightsaber
+item.lightsaber:yellow_hilt=Yellow Lightsaber Hilt
+item.lightsaber:yellow_active=Yellow Lightsaber
+item.lightsaber:white_hilt=White Lightsaber Hilt
+item.lightsaber:white_active=White Lightsaber
+
+## Components
+item.lightsaber:kyber_crystal_blue=Blue Kyber Crystal
+item.lightsaber:kyber_crystal_green=Green Kyber Crystal
+item.lightsaber:kyber_crystal_red=Red Kyber Crystal
+item.lightsaber:kyber_crystal_purple=Purple Kyber Crystal
+item.lightsaber:kyber_crystal_yellow=Yellow Kyber Crystal
+item.lightsaber:kyber_crystal_white=White Kyber Crystal
+item.lightsaber:durasteel_ingot=Durasteel Ingot
+item.lightsaber:power_cell=Power Cell
+item.lightsaber:hilt_casing=Hilt Casing
+item.lightsaber:focusing_lens=Focusing Lens

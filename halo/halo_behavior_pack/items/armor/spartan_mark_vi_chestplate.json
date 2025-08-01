@@ -27,14 +27,17 @@
         "dispensable": true,
         "slot": "slot.armor.chest"
       },
-      "minecraft:icon": {
-        "texture": "halo:spartan_mark_vi_chestplate"
-      },
+      "minecraft:icon": "halo:spartan_mark_vi_chestplate",
       "minecraft:display_name": {
         "value": "item.halo:spartan_mark_vi_chestplate.name"
       },
       "minecraft:tags": {
         "tags": ["halo:spartan_armor", "halo:has_shields"]
+      },
+      "minecraft:attachable": {
+        "description": {
+          "item_slot": "chest"
+        }
       }
     }
   }

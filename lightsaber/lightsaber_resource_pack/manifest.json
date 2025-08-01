@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Star Wars Lightsaber Add-on - Resource Pack",
+    "name": "Lightsaber Resource Pack",
+    "uuid": "c8e7f5d3-9b2a-4f6c-8e1d-7a9b3c5e8d2f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Lightsaber resources",
+      "type": "resources",
+      "uuid": "d4a6b8f2-5c9e-4a7d-9b3f-8e2c6f1a9d5b",
+      "version": [1, 0, 0]
+    }
+  ]
+}

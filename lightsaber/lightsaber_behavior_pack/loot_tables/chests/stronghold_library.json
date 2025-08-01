@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "lightsaber:kyber_crystal_blue",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "lightsaber:kyber_crystal_green",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "lightsaber:focusing_lens",
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "lightsaber:power_cell",
+          "weight": 20
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "value": 0.25
+        }
+      ]
+    }
+  ]
+}

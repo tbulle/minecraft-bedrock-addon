@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lightsaber:power_cell"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "RGR",
+      "GBG",
+      "RGR"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "G": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "B": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    "result": {
+      "item": "lightsaber:power_cell",
+      "count": 1
+    }
+  }
+}

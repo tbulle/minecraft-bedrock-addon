@@ -27,14 +27,17 @@
         "dispensable": true,
         "slot": "slot.armor.legs"
       },
-      "minecraft:icon": {
-        "texture": "halo:odst_leggings"
-      },
+      "minecraft:icon": "halo:odst_leggings",
       "minecraft:display_name": {
         "value": "item.halo:odst_leggings.name"
       },
       "minecraft:tags": {
         "tags": ["halo:odst_armor", "halo:stealth_armor"]
+      },
+      "minecraft:attachable": {
+        "description": {
+          "item_slot": "legs"
+        }
       },
       "minecraft:enchantable": {
         "value": 15,

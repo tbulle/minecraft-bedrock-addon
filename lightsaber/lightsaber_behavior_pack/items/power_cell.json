@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lightsaber:power_cell",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "power_cell"
+      },
+      "minecraft:display_name": {
+        "value": "item.lightsaber:power_cell"
+      },
+      "minecraft:max_stack_size": 16
+    }
+  }
+}

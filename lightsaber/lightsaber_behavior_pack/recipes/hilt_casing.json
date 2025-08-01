@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lightsaber:hilt_casing"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DDD",
+      "D D",
+      "DDD"
+    ],
+    "key": {
+      "D": {
+        "item": "lightsaber:durasteel_ingot"
+      }
+    },
+    "result": {
+      "item": "lightsaber:hilt_casing",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "lightsaber:kyber_crystal_blue",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "lightsaber:kyber_crystal_green",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "lightsaber:kyber_crystal_red",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "lightsaber:kyber_crystal_purple",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "lightsaber:kyber_crystal_yellow",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "lightsaber:kyber_crystal_white",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "value": 0.3
+        }
+      ]
+    }
+  ]
+}

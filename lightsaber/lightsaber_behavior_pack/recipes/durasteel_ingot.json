@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lightsaber:durasteel_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "IOI",
+      "ONO",
+      "IOI"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "O": {
+        "item": "minecraft:obsidian"
+      },
+      "N": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "lightsaber:durasteel_ingot",
+      "count": 2
+    }
+  }
+}

@@ -18,8 +18,23 @@
       "Bash(rm:*)",
       "Bash(git rebase:*)",
       "Bash(git stash:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(mkdir:*)",
+      "Bash(winget install:*)",
+      "Bash(curl:*)",
+      "Bash(python-installer.exe /quiet InstallAllUsers=0 PrependPath=1)",
+      "Bash(./python-installer.exe /quiet InstallAllUsers=0 PrependPath=1)",
+      "Bash(py --version)",
+      "Bash(py -m pip install:*)",
+      "Bash(py create_armor_textures.py:*)",
+      "Bash(rm:*)",
+      "Bash(git restore:*)",
+      "Bash(tree:*)",
+      "Bash(python:*)",
+      "Bash(py -m json.tool:*)",
+      "Bash(git remote set-url:*)"
     ],
     "deny": []
-  }
+  },
+  "$schema": "https://json.schemastore.org/claude-code-settings.json"
 }

@@ -1,0 +1,69 @@
+{
+  "lightsaber.activate": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sounds/lightsaber/activate",
+        "volume": 0.8
+      }
+    ]
+  },
+  "lightsaber.deactivate": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sounds/lightsaber/deactivate",
+        "volume": 0.8
+      }
+    ]
+  },
+  "lightsaber.hum": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sounds/lightsaber/hum",
+        "volume": 0.5,
+        "stream": true
+      }
+    ]
+  },
+  "lightsaber.swing": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sounds/lightsaber/swing1",
+        "volume": 0.7
+      },
+      {
+        "name": "sounds/lightsaber/swing2",
+        "volume": 0.7
+      },
+      {
+        "name": "sounds/lightsaber/swing3",
+        "volume": 0.7
+      }
+    ]
+  },
+  "lightsaber.clash": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sounds/lightsaber/clash1",
+        "volume": 0.9
+      },
+      {
+        "name": "sounds/lightsaber/clash2",
+        "volume": 0.9
+      }
+    ]
+  },
+  "lightsaber.deflect": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "sounds/lightsaber/deflect",
+        "volume": 0.8
+      }
+    ]
+  }
+}

@@ -27,14 +27,17 @@
         "dispensable": true,
         "slot": "slot.armor.chest"
       },
-      "minecraft:icon": {
-        "texture": "halo:odst_chestplate"
-      },
+      "minecraft:icon": "halo:odst_chestplate",
       "minecraft:display_name": {
         "value": "item.halo:odst_chestplate.name"
       },
       "minecraft:tags": {
         "tags": ["halo:odst_armor", "halo:stealth_armor"]
+      },
+      "minecraft:attachable": {
+        "description": {
+          "item_slot": "chest"
+        }
       },
       "minecraft:enchantable": {
         "value": 15,

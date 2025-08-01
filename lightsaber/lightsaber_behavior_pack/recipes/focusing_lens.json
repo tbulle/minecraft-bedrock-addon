@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lightsaber:focusing_lens"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " D ",
+      "DGD",
+      " D "
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      }
+    },
+    "result": {
+      "item": "lightsaber:focusing_lens",
+      "count": 1
+    }
+  }
+}

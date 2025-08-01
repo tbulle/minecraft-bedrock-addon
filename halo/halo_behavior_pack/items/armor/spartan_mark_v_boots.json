@@ -27,14 +27,17 @@
         "dispensable": true,
         "slot": "slot.armor.feet"
       },
-      "minecraft:icon": {
-        "texture": "halo:spartan_mark_v_boots"
-      },
+      "minecraft:icon": "halo:spartan_mark_v_boots",
       "minecraft:display_name": {
         "value": "item.halo:spartan_mark_v_boots.name"
       },
       "minecraft:tags": {
         "tags": ["halo:spartan_armor", "halo:has_shields"]
+      },
+      "minecraft:attachable": {
+        "description": {
+          "item_slot": "feet"
+        }
       }
     }
   }

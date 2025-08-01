@@ -23,42 +23,42 @@ item.halo:odst_leggings.name=ODST Leggings
 item.halo:odst_boots.name=ODST Boots
 
 ## Equipment
-item.halo:active_camo=Active Camouflage
-item.halo:overshield=Overshield
+item.halo:active_camo.name=Active Camouflage
+item.halo:overshield.name=Overshield
 
 ## Weapons - Energy
-item.halo:energy_sword=Energy Sword
-item.halo:plasma_rifle=Plasma Rifle
-item.halo:needler=Needler
+item.halo:energy_sword.name=Energy Sword
+item.halo:plasma_rifle.name=Plasma Rifle
+item.halo:needler.name=Needler
 
 ## Weapons - Ballistic
-item.halo:assault_rifle=MA5B Assault Rifle
-item.halo:battle_rifle=BR55 Battle Rifle
-item.halo:sniper_rifle=SRS99 Sniper Rifle
-item.halo:rocket_launcher=M41 SPNKr Rocket Launcher
+item.halo:assault_rifle.name=MA5B Assault Rifle
+item.halo:battle_rifle.name=BR55 Battle Rifle
+item.halo:sniper_rifle.name=SRS99 Sniper Rifle
+item.halo:rocket_launcher.name=M41 SPNKr Rocket Launcher
 
 ## Weapons - Grenades
-item.halo:plasma_grenade=Plasma Grenade
-item.halo:frag_grenade=M9 Fragmentation Grenade
+item.halo:plasma_grenade.name=Plasma Grenade
+item.halo:frag_grenade.name=M9 Fragmentation Grenade
 
 ## Vehicles
-entity.halo:warthog=M12 Warthog
-entity.halo:ghost=Type-32 Ghost
-entity.halo:banshee=Type-26 Banshee
-entity.halo:scorpion=M808 Scorpion
-entity.halo:mongoose=M274 Mongoose
+entity.halo:warthog.name=M12 Warthog
+entity.halo:ghost.name=Type-32 Ghost
+entity.halo:banshee.name=Type-26 Banshee
+entity.halo:scorpion.name=M808 Scorpion
+entity.halo:mongoose.name=M274 Mongoose
 
 ## Enemies
-entity.halo:grunt=Unggoy (Grunt)
-entity.halo:elite=Sangheili (Elite)
-entity.halo:jackal=Kig-Yar (Jackal)
-entity.halo:hunter=Mgalekgolo (Hunter)
+entity.halo:grunt.name=Unggoy (Grunt)
+entity.halo:elite.name=Sangheili (Elite)
+entity.halo:jackal.name=Kig-Yar (Jackal)
+entity.halo:hunter.name=Mgalekgolo (Hunter)
 
 ## Blocks
-tile.halo:forerunner_metal=Forerunner Metal
-tile.halo:covenant_metal=Covenant Alloy
-tile.halo:unsc_plating=UNSC Titanium Plating
-tile.halo:energy_barrier=Energy Barrier
+tile.halo:forerunner_metal.name=Forerunner Metal
+tile.halo:covenant_metal.name=Covenant Alloy
+tile.halo:unsc_plating.name=UNSC Titanium Plating
+tile.halo:energy_barrier.name=Energy Barrier
 
 ## Shield System Messages
 halo.shield.depleted=Shields Down!
