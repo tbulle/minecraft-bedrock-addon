@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Star Wars Lightsaber Add-on - Behavior Pack",
+    "name": "Lightsaber Behavior Pack", 
+    "uuid": "a7f8e9c1-3b5d-4e2a-9f1c-8d6b4a2c7e9f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Lightsaber behaviors and items",
+      "type": "data",
+      "uuid": "b9d2f5e8-7a3c-4d6e-8f2b-9c1e6d8a4b7f",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Lightsaber functions", 
+      "type": "script",
+      "language": "molang",
+      "uuid": "c9d2f5e8-7a3c-4d6e-8f2b-9c1e6d8a4b7f",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c8e7f5d3-9b2a-4f6c-8e1d-7a9b3c5e8d2f",
+      "version": [1, 0, 0]
+    }
+  ]
+}
