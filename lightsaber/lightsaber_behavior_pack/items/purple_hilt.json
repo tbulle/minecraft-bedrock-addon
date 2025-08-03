@@ -16,7 +16,33 @@
       },
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,
-      "minecraft:use_duration": 32
+      "minecraft:food": {
+        "can_always_eat": true
+      },
+      "minecraft:use_animation": "bow",
+      "minecraft:use_duration": 32,
+      "minecraft:cooldown": {
+        "duration": 0.5,
+        "category": "lightsaber_activation"
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "lightsaber:activate_purple",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "lightsaber:activate_purple": {
+        "run_command": {
+          "command": [
+            "function lightsaber/activate_purple",
+            "playsound random.orb @s ~ ~ ~ 1 1.5",
+            "particle lightsaber:purple_ignite ~ ~1 ~"
+          ],
+          "target": "holder"
+        }
+      }
     }
   }
 }

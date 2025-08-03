@@ -76,6 +76,64 @@
             "repair_amount": 1000
           }
         ]
+      },
+      "minecraft:food": {
+        "can_always_eat": true
+      },
+      "minecraft:use_animation": "bow",
+      "minecraft:use_duration": 32,
+      "minecraft:cooldown": {
+        "duration": 0.5,
+        "category": "lightsaber_activation"
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "lightsaber:deactivate_yellow",
+          "target": "self"
+        }
+      },
+      "minecraft:throwable": {
+        "do_swing_animation": true,
+        "launch_power_scale": 0.0,
+        "max_launch_power": 0.0
+      }
+    },
+    "events": {
+      "lightsaber:deactivate_yellow": {
+        "sequence": [
+          {
+            "condition": "!q.is_sneaking",
+            "run_command": {
+              "command": [
+                "function lightsaber/deactivate_yellow",
+                "playsound random.orb @s ~ ~ ~ 1 0.5",
+                "particle lightsaber:yellow_extinguish ~ ~1 ~"
+              ],
+              "target": "holder"
+            }
+          },
+          {
+            "condition": "q.is_sneaking",
+            "sequence": [
+              {
+                "run_command": {
+                  "command": [
+                    "playsound random.explode @a[r=16] ~ ~ ~ 0.5 1.5",
+                    "particle lightsaber:yellow_ignite ~ ~1 ~",
+                    "effect @s slowness 1 2 true"
+                  ],
+                  "target": "holder"
+                }
+              },
+              {
+                "shoot": {
+                  "projectile": "lightsaber:force_push",
+                  "launch_power": 1.5
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   }
