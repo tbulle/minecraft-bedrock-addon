@@ -18,7 +18,8 @@
       "Bash(rm:*)",
       "Bash(git rebase:*)",
       "Bash(git stash:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }
