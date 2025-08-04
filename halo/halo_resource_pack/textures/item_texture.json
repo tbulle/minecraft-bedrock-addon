@@ -2,6 +2,9 @@
   "resource_pack_name": "halo",
   "texture_name": "atlas.items",
   "texture_data": {
+    "master_chief_helmet": {
+      "textures": "textures/items/master_chief_helmet"
+    },
     "halo:spartan_mark_vi_helmet": {
       "textures": "textures/items/armor/spartan_mark_vi_helmet"
     },
